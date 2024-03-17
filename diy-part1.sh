@@ -11,13 +11,13 @@
 #
 
 # Uncomment a feed source
-# sed -i 's/^#\(.*helloworld\)/\1/' feeds.conf.default
+sed -i 's/^#\(.*helloworld\)/\1/' feeds.conf.default
 
 # Add a feed source
 # git clone --depth=1 https://github.com/xiaorouji/openwrt-passwall
 # svn co https://github.com/xiaorouji/openwrt-passwall/branches/luci/luci-app-passwall
 # echo 'src-git passwall https://github.com/xiaorouji/openwrt-passwall' >>feeds.conf.default
-# git clone --depth=1 https://github.com/fw876/helloworld
+git clone --depth=1 https://github.com/fw876/helloworld
 
 
 # Add DDNSTO
